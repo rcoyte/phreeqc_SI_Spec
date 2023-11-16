@@ -5,6 +5,7 @@ import pandas as pd
 
 gathering_cat = None
 initial_soln_index = None
+#TODO: how to get different tempretures without having to add every possible one? 
 skip_lines = ['**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.',
     'For ideal gases, phi = 1.',
     '',
